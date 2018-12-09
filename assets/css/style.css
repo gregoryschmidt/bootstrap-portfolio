@@ -14,6 +14,7 @@ body {
 
 section {background-color: #ffffff;
     margin-top: 100px;
+    max-width: 910px;
     margin-bottom: 100px;
     padding: 20px;
     align-content: center;
