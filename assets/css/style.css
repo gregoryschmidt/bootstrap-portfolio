@@ -7,15 +7,16 @@ body {
         margin: 0px;
         color: white;
         font-weight: bold;
-        font-size: 24px;
+        font-size: 40px;
+        align-content: center;
     
     }
 
 
 section {background-color: #ffffff;
-    margin-top: 100px;
-    max-width: 910px;
-    margin-bottom: 100px;
+    margin-top: 110px;
+    max-width: 910px; 
+    margin-bottom: 50px;
     padding: 20px;
     align-content: center;
     border: solid 1px#dddddd
@@ -25,24 +26,22 @@ section {background-color: #ffffff;
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
-    font-size: 21px;
+    font-size: 30px;
     font-weight: bold;
-    padding-bottom: 20px;
+    padding-bottom: 17px;
     border-bottom: solid 2px #dddddd;
     margin-bottom: 20px;
 }
 
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #4aaaa5;
+    background-color:  #4aaaa5;
     color: white;
-    width: 275px;
     font-size: 21px;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
-    position: relative;
-        top: -65px
+    margin-bottom: 30px;
 }
 
 p {font-family: Arial, Helvetica, sans-serif;
@@ -89,3 +88,34 @@ button {background-color: #4aaaa5;
 .text-white {
     font-size: 60%;
 }
+
+.navbar-brand {
+    color: white;
+  }
+
+  .sectionb {
+    margin-top: -10px;
+
+  }
+
+  .link {
+      align-content: center;
+      margin-right: 10px;
+      color:  #4aaaa5;
+
+
+  }
+
+  .navbar-nav {
+    float:none;
+    padding-bottom: 5px;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+  
+
